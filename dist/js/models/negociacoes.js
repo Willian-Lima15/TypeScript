@@ -7,5 +7,6 @@ export class Negociacoes {
     }
     lista() {
         return this.negociacoes;
+        console.log(this.negociacoes); // teste
     }
 }
